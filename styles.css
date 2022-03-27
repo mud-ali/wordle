@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(46, 46, 46);
+}
+header {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 2% 0;
+}
+h1 {
+    color: white;
+    font-family: 'League Gothic', sans-serif;
+    font-size: 7vh;
+    letter-spacing: 0.5rem;
+}
+table {
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Fredoka', sans-serif;
+}
+td {
+    border: #fff 2px solid;
+    border-radius: 10%;
+    margin: 30%;
+    width: 10vh;
+    padding: 0;
+}
+tr {
+    height: 10vh;
+}
