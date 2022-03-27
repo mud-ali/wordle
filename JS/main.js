@@ -12,6 +12,7 @@ document.addEventListener('keyup', (e)=>{
         console.log(tds[letter]);
         tds[letter-1].innerText = "";
         letter--;
+        currentWord = currentWord.substring(0, currentWord.length - 1);
         return;
     } else if (e.key == "Enter" && letter == 5) {
         attempt++;
