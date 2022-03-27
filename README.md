@@ -2,8 +2,8 @@
 
 ### Wordle clone for practice
 
-Still quite a few bugs to iron out
-  - inconsistensy with colors
+Bugs
+  - None that I've noticed so far
 
 Looking to add a few more features
   - animations
