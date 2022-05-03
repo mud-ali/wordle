@@ -1,13 +1,13 @@
 # Wordle
 
-### Wordle clone for practice
+### My own Wordle clone
 
-Still quite a few bugs to iron out
-  - inconsistensy with colors
+Working on adding a keyboard :)
 
 Looking to add a few more features
   - animations
   - winning moment
   - losing moment
   - share button
+  - colored feedback on keyboard
   - additional spin to make it less of a clone and more *unique*

@@ -15,7 +15,13 @@ document.addEventListener('keyup', (e)=>{
         currentWord = currentWord.substring(0, currentWord.length - 1);
         return;
     } else if (e.key == "Enter" && letter == 5) {
+        if (!(allowedWords.includes(currentWord)) && !realwords.includes(currentWord)) {
+            alert("Not a valid word");
+            return;
+        }
+
         attempt++;
+        
         checkWin(currentWord, tds);
         //lose condition if attemp ==6
         currentWord = "";
@@ -54,7 +60,7 @@ function checkWin(attempted, cells) {
             }, 500);
         }  
         
-        if (cor==5) alert(attempt);
+        if (cor==5) setTimeout(alert(attempt), 1000);
     }
 }
 
