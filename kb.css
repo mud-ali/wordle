@@ -1,26 +1,76 @@
 body {
     background-color: #2e2e2e;
+    margin: 0;
+    padding: 0;
 }
-div.table {
+div.table, #other {
     /* border: 2px dashed white; */
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    font-size: 2.2rem;
-    width: 97vw;
+    /* width: 97vw; */
     user-select: none;
 }
+div.table {
+    font-size: 1.5rem;
+    width: 98vw;
+    margin: 0 0 0 1.5vw;
+    /* border: 2px solid red; */
+}
+@media only screen and (max-width: 740px) {
+    div.table {
+        position: absolute;
+        left:0;
+        /* font-size: 1rem; */
+        font-size: 100%;
+        width: 100vw;
+        margin: 0;
+    }
+    #other {
+        font-size: 100%;
+    }
+    div.td {
+        min-width: 6vw;
+    }
+}
+
+#other {
+    font-size: 1.7rem;
+    position: absolute;
+    /* border: 2px solid orange; */
+    width: 15vw;
+    height: 20vw;
+    /* float:right; */
+    top: 15%;
+    right: 0;
+    margin: 0 0 5% 50%;
+}
+#other>div {
+    text-align: center;
+    margin: 5%;
+    padding: 7% 2%;
+    border: 1px solid white;
+    border-radius: 10%;
+    width: 10vw;
+}
+
 div.td {
+    text-align: center;
+    box-sizing: border-box;
     display: inline-block;
-    margin: 0 0.5%;
-    padding: 1%;
+    margin: 0 0.7%;
+    padding: 1% 1.9%;
     border-radius: 20%;
+    width: 6%;
+    aspect-ratio: 1.3;
     border: 1.5px solid white;
 }
 div.tr {
     /* border: 1.5px solid white; */
-    padding: 1rem 5%;
+    margin: 0;
+    width: 100%;
+    padding: 1rem 0%;
     flex: 1;
     text-align: center;
 }

@@ -19,16 +19,19 @@ table {
     text-align: center;
     font-size: 2rem;
     font-family: 'Fredoka', sans-serif;
+    border-collapse: separate;
+    border-spacing: 5px 10px;
 }
 td {
     border: #fff 2px solid;
     border-radius: 10%;
-    margin: 30%;
     width: 10vh;
     padding: 0;
 }
 tr {
+    position: relative;
     height: 10vh;
+    margin: 50px;
 }
 #kb {
     margin: 0 auto;
